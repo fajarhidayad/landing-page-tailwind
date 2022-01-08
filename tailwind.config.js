@@ -18,6 +18,15 @@ module.exports = {
         primary: "#F25F3A",
         secondary: "#242D52",
       },
+      keyframes: {
+        fadein: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        fadein: "fadein 0.5s ease-in-out",
+      },
     },
   },
   plugins: [],
